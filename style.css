@@ -1,0 +1,38 @@
+/* Custom styles to ensure smooth scrolling and typography */
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #2563EB, #1D4ED8); /* Blue gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        /* Custom scrollbar for aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111827; /* dark bg */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4B5563; /* grey thumb */
+            border-radius: 10px;
+        }
+        /* Theme-dependent background for sections */
+        .dark-mode .bg-section {
+            background-color: #1F2937; /* Darker section background */
+        }
+        .bg-section {
+            background-color: #F9FAFB; /* Light section background - Default to light for this definition */
+        }
+        /* Initial body state is dark mode */
+        body.dark-mode {
+            background-color: #111827;
+            color: #E5E7EB;
+        }
+        body:not(.dark-mode) .bg-section {
+            background-color: #F9FAFB; /* Light section background when body is light */
+        }
+    
