@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthika J | Finance Portfolio</title>
+    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-100 dark-mode">
+
+    <!-- Navigation Bar --><nav class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Name --><a href="#home" class="flex-shrink-0 text-xl font-bold text-gradient">
+                    Keerthika J
+                </a>
+
+                <!-- Desktop Menu --><div class="hidden md:flex space-x-6 lg:space-x-10 items-center">
+                    <a href="#home" class="text-gray-300 hover:text-white transition duration-200">Home</a>
+                    <a href="#about-me" class="text-gray-300 hover:text-white transition duration-200">About</a>
+                    <a href="#skills" class="text-gray-300 hover:text-white transition duration-200">Skills</a>
+                    <a href="#projects" class="text-gray-300 hover:text-white transition duration-200">Projects</a>
+                    <a href="#education" class="text-gray-300 hover:text-white transition duration-200">Education</a>
+                    <a href="#certifications" class="text-gray-300 hover:text-white transition duration-200">Certifications</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition duration-200">Contact</a>
+                    
+                </div>
+
+                <!-- Mobile Menu Button --><div class="flex md:hidden items-center space-x-3">
+                    <button id="theme-toggle-mobile" class="p-2 rounded-full hover:bg-gray-700 transition duration-200 focus:outline-none">
+                         <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="toggle-icon-mobile">
+                            <!-- Default: Moon Icon (for dark mode) --><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                        </svg>
+                    </button>
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) --><div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900">Home</a>
+                <a href="#about-me" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Me</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+                <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Education</a>
+                <a href="#certifications" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Certifications</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto pt-6 px-4 sm:px-6 lg:px-8">
+
+        <!-- 1. Home Section (Hero) --><section id="home" class="min-h-screen pt-24 pb-16 flex items-center bg-gray-900 transition duration-300">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Text Content --><div class="order-2 md:order-1">
+                    <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+                        Hi, I'm <span class="text-gradient">Keerthika J</span>
+                    </h1>
+                    <p class="mt-4 text-xl sm:text-2xl font-light text-gray-400">
+                        B.Com Specializing in Accounting & Finance
+                    </p>
+                    <!-- Concise professional statement for Hero section --><p class="mt-8 text-lg leading-relaxed text-gray-300 bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+                        "Highly motivated B.Com Accounting & Finance graduate seeking to leverage strong analytical and quantitative skills in a growth-oriented team."
+                    </p>
+                    <div class="mt-10 flex space-x-4">
+                        <a href="#contact" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                            Get in Touch
+                        </a>
+                        <a href="#about-me" class="px-6 py-3 bg-gray-700 text-gray-300 font-semibold rounded-lg shadow-md hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                            More About Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image Placeholder --><div class="order-1 md:order-2 flex justify-center">
+                    <!-- UPDATED: Border color changed to border-cyan-500 for a more analytical/modern look -->
+                    <img
+                        src="profile.jpeg"
+                        alt="Professional Placeholder Image for Keerthika J"
+                        class="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full shadow-2xl border-4 border-cyan-500"
+                        onerror="this.onerror=null; this.src='https://placehold.co/400x400/6B7280/FFFFFF?text=Placeholder+Image';"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 2. About Me Section (New) --><section id="about-me" class="py-16 bg-section transition duration-300 rounded-2xl p-6 lg:p-12 shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">About Me & Personal Drive</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 items-start">
+                <!-- Main Bio Content (2/3 width) --><div class="md:col-span-2 bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-blue-500 transform hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Professional Summary</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        I am a recent B.Com Accounting & Finance graduate who is enthusiastic about starting my career in the finance industry. My academic specialization has equipped me with strong analytical and quantitative skills, specifically in financial modeling and statement analysis. I am a quick learner, highly attentive to detail, and eager to contribute my knowledge and dedication to a growth-oriented team.
+                    </p>
+                </div>
+
+                <!-- Hobbies/Interests (1/3 width) --><div class="md:col-span-1 bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-purple-500 transform hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-white flex items-center">
+                        <svg class="w-6 h-6 mr-2 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.208 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.792 18 7.5 18s3.332.477 4.5 1.247m0-13C13.168 5.477 14.792 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.208 18 16.5 18s-3.332.477-4.5 1.247"></path></svg>
+                        Hobbies
+                    </h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-300">
+                        <li>Painting</li>
+                        <li>Hearing songs</li>
+                        <li>Learning new concepts</li>
+                        <li>Reading</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 3. Skills Section --><section id="skills" class="py-16 bg-section transition duration-300 rounded-2xl p-6 lg:p-12 shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">Core Skills & Expertise</h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Technical Skills --><div class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700 transform hover:shadow-2xl hover:border-blue-500 transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-6 text-blue-400 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1v-3M6 10h.01M18 10h.01M6 14h.01M18 14h.01m0-4a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                        Technical Tools & Software
+                    </h3>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="skill-tag bg-blue-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-blue-700">Tally</span>
+                        <span class="skill-tag bg-blue-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-blue-700">Microsoft Office</span>
+                        <span class="skill-tag bg-blue-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-blue-700">Excel (Advanced)</span>
+                    </div>
+                </div>
+
+                <!-- Core Finance & Soft Skills --><div class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700 transform hover:shadow-2xl hover:border-blue-500 transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-6 text-blue-400 flex items-center">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 5a1 1 0 00.925 1.341l15.398-4.74M10 20l5-5m-5 5L8 16m3-8a3 3 0 11-6 0 3 3 0 016 0zM12 20a1 1 0 001-1v-2a1 1 0 00-1-1H7a1 1 0 00-1 1v2a1 1 0 001 1h5z"></path></svg>
+                        Professional & Analytical Skills
+                    </h3>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="skill-tag bg-green-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-green-700">Financial Analysis</span>
+                        <span class="skill-tag bg-green-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-green-700">Auditing Principles</span>
+                        <span class="skill-tag bg-green-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-green-700">Tax Planning</span>
+                        <span class="skill-tag bg-purple-600 text-white text-sm px-4 py-2 rounded-full shadow-md transition duration-300 hover:bg-purple-700">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 4. Projects Section --><section id="projects" class="py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">Selected Projects</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-1 gap-8">
+                <!-- Project Card 1: Income Tax and GST --><div class="bg-gray-800 p-8 rounded-xl shadow-lg border-l-4 border-blue-500 hover:shadow-2xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-white mb-2">Income Tax and GST</h3>
+                    <p class="text-sm font-medium text-blue-400 mb-4">Focus Area: Taxation</p>
+
+                    <p class="text-gray-300 leading-relaxed italic">
+                        "A Comparative Study of Direct and Indirect Taxation: Compliance and Impact under Income Tax and GST Regimes"
+                    </p>
+
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <span class="bg-gray-700 text-sm px-3 py-1 rounded-full text-gray-300">Financial Modeling</span>
+                        <span class="bg-gray-700 text-sm px-3 py-1 rounded-full text-gray-300">Compliance</span>
+                        <span class="bg-gray-700 text-sm px-3 py-1 rounded-full text-gray-300">Regulatory Analysis</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 5. Education Section --><section id="education" class="py-16 bg-section transition duration-300 rounded-2xl p-6 lg:p-12 shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">Academic History</h2>
+
+            <!-- Education Timeline --><div class="max-w-xl mx-auto">
+                <h3 class="text-2xl font-semibold mb-6 text-white border-b-2 border-blue-500 pb-2">Degrees & Qualifications</h3>
+
+                <!-- B.Com Entry --><div class="relative pl-6 pb-8 border-l-2 border-blue-400">
+                    <div class="absolute -left-2.5 w-5 h-5 bg-blue-500 rounded-full border-4 border-gray-900"></div>
+                    <p class="text-sm font-medium text-gray-400">2023 - 2026</p>
+                    <h4 class="text-xl font-semibold mt-1">B.Com Accounting & Finance</h4>
+                    <p class="text-gray-300">Periyar University</p>
+                </div>
+
+                <!-- 12th Grade Entry --><div class="relative pl-6 pb-8 border-l-2 border-blue-400">
+                    <div class="absolute -left-2.5 w-5 h-5 bg-blue-500 rounded-full border-4 border-gray-900"></div>
+                    <p class="text-sm font-medium text-gray-400">2021 - 2023</p>
+                    <h4 class="text-xl font-semibold mt-1">12th Grade (Higher Secondary)</h4>
+                    <p class="text-gray-300">Goverment higher secondary school</p>
+                </div>
+
+		<!-- 10th Grade Entry --><div class="relative pl-6 pb-8 border-l-2 border-blue-400">
+                    <div class="absolute -left-2.5 w-5 h-5 bg-blue-500 rounded-full border-4 border-gray-900"></div>
+                    <p class="text-sm font-medium text-gray-400">2020 - 2021</p>
+                    <h4 class="text-xl font-semibold mt-1">10th Grade (Secondary School Leaving Certificate)</h4>
+                    <p class="text-gray-300">Goverment higher secondary school</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 6. Certifications Section --><section id="certifications" class="py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">Professional Certifications</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                
+                <!-- Certification Card 1: Microsoft Digital Skills --><div class="bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-yellow-500 hover:shadow-2xl transition duration-300">
+                    <div class="flex items-start justify-between">
+                        <h3 class="text-xl font-semibold text-white">Microsoft Digital Skills</h3>
+                        <svg class="w-6 h-6 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">Issued by Microsoft</p>
+
+                    <button onclick="viewCertificate('NM_Certificate 3sem.pdf')"
+                        class="mt-4 px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300 w-full md:w-auto">
+                        View Certificate (Image)
+                    </button>
+                    <!-- Mock Input Field for Image URL (Optional for user editing) -->
+                    <input type="hidden" id="cert-url-1" value="NM_Certificate 3sem.pdf">
+                </div>
+
+                <!-- Certification Card 2: English Language Communication --><div class="bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-yellow-500 hover:shadow-2xl transition duration-300">
+                    <div class="flex items-start justify-between">
+                        <h3 class="text-xl font-semibold text-white">English Language Communication</h3>
+                        <svg class="w-6 h-6 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">Skill Validation</p>
+
+                    <button onclick="viewCertificate('NM_Certificate 2nd sem.pdf')"
+                        class="mt-4 px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300 w-full md:w-auto">
+                        View Certificate (Image)
+                    </button>
+                    <input type="hidden" id="cert-url-2" value="NM_Certificate 2nd sem.pdf">
+                </div>
+
+                <!-- Certification Card 3: Income Tax and GST --><div class="bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-yellow-500 hover:shadow-2xl transition duration-300">
+                    <div class="flex items-start justify-between">
+                        <h3 class="text-xl font-semibold text-white">Income Tax and GST</h3>
+                        <svg class="w-6 h-6 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">Taxation Expert</p>
+
+                    <button onclick="viewCertificate('NM_Certificate (1)4thsem.pdf')"
+                        class="mt-4 px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300 w-full md:w-auto">
+                        View Certificate (Image)
+                    </button>
+                    <input type="hidden" id="cert-url-3" value="NM_Certificate (1)4thsem.pdf">
+                </div>
+
+                <!-- Certification Card 4: NBFC Products and Services --><div class="bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-yellow-500 hover:shadow-2xl transition duration-300">
+                    <div class="flex items-start justify-between">
+                        <h3 class="text-xl font-semibold text-white">NBFC Products and Services</h3>
+                        <svg class="w-6 h-6 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-1 mb-4">Non-Banking Financial</p>
+
+                    <button onclick="viewCertificate('NM_Certificate.pdf')"
+                        class="mt-4 px-4 py-2 text-sm bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300 w-full md:w-auto">
+                        View Certificate (Image)
+                    </button>
+                    <input type="hidden" id="cert-url-4" value="NM_Certificate.pdf">
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="w-full h-px bg-gray-700 my-16"></div>
+
+        <!-- 7. Contact Section --><section id="contact" class="py-16 pb-32">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center text-gradient">Get In Touch</h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Details --><div class="space-y-6 bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+                    <h3 class="text-xl font-semibold text-white mb-4">My Information</h3>
+                    
+                    <div class="flex items-center">
+                        <svg class="w-6 h-6 mr-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path></svg>
+                        <span class="text-gray-300">keerthikpt16@gmail.com</span>
+                    </div>
+
+                    <div class="flex items-center">
+                        <svg class="w-6 h-6 mr-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <span class="text-gray-300">7904337699</span>
+                    </div>
+
+                    <div class="flex items-center">
+                        <svg class="w-6 h-6 mr-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <span class="text-gray-300">Puthukovil</span>
+                    </div>
+                </div>
+
+                <!-- Contact Form (Simple UI representation) --><div class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+                    <h3 class="text-xl font-semibold text-white mb-4">Send Me a Message</h3>
+                    <form onsubmit="event.preventDefault(); showMessage();" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-400">Name</label>
+                            <input type="text" id="name" required class="mt-1 block w-full rounded-md border-gray-700 bg-gray-900 text-gray-100 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-400">Email</label>
+                            <input type="email" id="email" required class="mt-1 block w-full rounded-md border-gray-700 bg-gray-900 text-gray-100 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-400">Message</label>
+                            <textarea id="message" rows="4" required class="mt-1 block w-full rounded-md border-gray-700 bg-gray-900 text-gray-100 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3"></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                    <!-- Message Box for form submission --><div id="form-message" class="mt-4 hidden p-3 rounded-lg bg-green-500 text-white text-center">
+                        Thank you! Your message has been noted (simulated submission).
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer --><footer class="bg-gray-800 border-t border-gray-700 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>&copy; 2024 Keerthika J. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
